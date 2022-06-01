@@ -2,14 +2,15 @@ import React from "react";
 import Logo from "./Logo";
 import Navlinks from "./Navlinks";
 import Login from "./Login";
+import "./navbar.css";
 
 const Navbar = () => {
   return (
-    <React.StrictMode>
+    <div className="navbar">
       <Logo />
       <Navlinks />
       <Login />
-    </React.StrictMode>
+    </div>
   );
 };
 

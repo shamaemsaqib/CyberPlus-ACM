@@ -2,12 +2,22 @@ import React from "react";
 
 function Navlinks() {
   return (
-    <ul>
-      <li className="navLinks">about</li>
-      <li className="navLinks">how it works</li>
-      <li className="navLinks">pricing</li>
-      <li className="navLinks">solution</li>
-      <li className="navLinks">features</li>
+    <ul className="navLinksContainer">
+      <a className="navLinks" href="#">
+        <li>about</li>
+      </a>
+      <a className="navLinks" href="#">
+        <li>how it works</li>
+      </a>
+      <a className="navLinks" href="#">
+        <li>pricing</li>
+      </a>
+      <a className="navLinks" href="#">
+        <li>solution</li>
+      </a>
+      <a className="navLinks" href="#">
+        <li>features</li>
+      </a>
     </ul>
   );
 }
