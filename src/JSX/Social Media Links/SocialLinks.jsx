@@ -1,13 +1,15 @@
 import React from "react";
 import SocialLiksImg from "./SocialLiksImg";
+import Button from "../Global Components/Button";
+import "./socialLinks.css";
+import SocialHeaders from "./SocialHeaders";
 
 function SocialLinks() {
   return (
-    <div style={{ backgroundColor: "#FAFAFA" }}>
-      <h1>Social Media Links</h1>
-      <h3>Feel Free To Contact Us</h3>
+    <div className="socialLinksContainer">
+      <SocialHeaders />
       <SocialLiksImg />
-      <button>Get Started</button>
+      <Button />
     </div>
   );
 }

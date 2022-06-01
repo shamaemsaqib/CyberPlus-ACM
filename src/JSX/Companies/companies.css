@@ -1,0 +1,23 @@
+.companies {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 3rem;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.companies h1 {
+  font-family: "Archivo", sans-serif;
+  font-size: 2.7rem;
+  letter-spacing: 5px;
+  text-transform: capitalize;
+}
+
+.companyImg {
+  max-height: 400px;
+}
