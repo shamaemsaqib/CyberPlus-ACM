@@ -3,19 +3,49 @@ import React from "react";
 function Navlinks() {
   return (
     <ul className="navLinksContainer">
-      <a className="navLinks" href="#">
+      <a
+        href="http://"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="navLinks"
+        href="#"
+      >
         <li>about</li>
       </a>
-      <a className="navLinks" href="#">
+      <a
+        href="http://"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="navLinks"
+        href="#"
+      >
         <li>how it works</li>
       </a>
-      <a className="navLinks" href="#">
+      <a
+        href="http://"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="navLinks"
+        href="#"
+      >
         <li>pricing</li>
       </a>
-      <a className="navLinks" href="#">
+      <a
+        href="http://"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="navLinks"
+        href="#"
+      >
         <li>solution</li>
       </a>
-      <a className="navLinks" href="#">
+      <a
+        href="http://"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="navLinks"
+        href="#"
+      >
         <li>features</li>
       </a>
     </ul>
