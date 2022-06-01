@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
-/* Usage: font-family: 'Archivo', sans-serif; */
+/* font-family: 'Archivo', sans-serif; */
 
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
 /* font-family: 'Chakra Petch', sans-serif; */
@@ -31,4 +31,6 @@ ul {
 
 #root {
   width: 100%;
+  display: grid;
+  gap: 0;
 }

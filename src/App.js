@@ -8,14 +8,14 @@ import SocialLinks from "./JSX/Social Media Links/SocialLinks";
 
 function App() {
   return (
-    <React.StrictMode>
+    <>
       <Banner />
       <Section2 />
       <Companies />
       <SocialLinks />
       <Contact />
       <Footer />
-    </React.StrictMode>
+    </>
   );
 }
 
