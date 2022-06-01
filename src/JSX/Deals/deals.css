@@ -54,9 +54,6 @@
   gap: 0.5rem;
 }
 
-.planHeaderContainer {
-}
-
 .planHeader {
   text-transform: capitalize;
   font-size: 2rem;
@@ -106,10 +103,23 @@
   padding: 1rem 3rem;
   letter-spacing: 1px;
   border-radius: 1.5rem;
+  transition: all linear 0.3s;
+  cursor: pointer;
+}
+
+.planBtn:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 .singlePlanContainer:first-child .planBtn,
 .singlePlanContainer:last-child .planBtn {
   color: #fff;
   background-color: #1c55c9;
+}
+
+.singlePlanContainer:first-child .planBtn:hover,
+.singlePlanContainer:last-child .planBtn:hover {
+  background-color: #000;
+  color: #fff;
 }

@@ -9,4 +9,10 @@
   cursor: pointer;
   letter-spacing: 1px;
   border: none;
+  transition: all linear 0.3s;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
 }

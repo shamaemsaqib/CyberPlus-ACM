@@ -31,4 +31,10 @@
   letter-spacing: 1px;
   border: none;
   border-radius: 5rem;
+  transition: all linear 0.3s;
+}
+
+.contactContainer button:hover {
+  background-color: #000;
+  color: #fff;
 }
