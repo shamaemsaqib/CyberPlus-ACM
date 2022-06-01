@@ -1,0 +1,15 @@
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  color: #000;
+  place-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 3rem;
+}
+
+.footerLinksContainer {
+  display: flex;
+  gap: 1.5rem;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}

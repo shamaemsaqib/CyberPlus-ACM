@@ -1,11 +1,13 @@
 import React from "react";
+import "./contact.css";
 
 function Contact() {
   return (
-    <div>
+    <div className="contactContainer">
       <h1>
-        join us on email <br />
-        for more information
+        Join us on email for
+        <br />
+        <span>more information</span>
       </h1>
       <button>join now</button>
     </div>
