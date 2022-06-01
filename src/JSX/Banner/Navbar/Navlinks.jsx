@@ -8,7 +8,6 @@ function Navlinks() {
         target="_blank"
         rel="noopener noreferrer"
         className="navLinks"
-        href="#"
       >
         <li>about</li>
       </a>
@@ -17,7 +16,6 @@ function Navlinks() {
         target="_blank"
         rel="noopener noreferrer"
         className="navLinks"
-        href="#"
       >
         <li>how it works</li>
       </a>
@@ -26,7 +24,6 @@ function Navlinks() {
         target="_blank"
         rel="noopener noreferrer"
         className="navLinks"
-        href="#"
       >
         <li>pricing</li>
       </a>
@@ -35,7 +32,6 @@ function Navlinks() {
         target="_blank"
         rel="noopener noreferrer"
         className="navLinks"
-        href="#"
       >
         <li>solution</li>
       </a>
@@ -44,7 +40,6 @@ function Navlinks() {
         target="_blank"
         rel="noopener noreferrer"
         className="navLinks"
-        href="#"
       >
         <li>features</li>
       </a>
