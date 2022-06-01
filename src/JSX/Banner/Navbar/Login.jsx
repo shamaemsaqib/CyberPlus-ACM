@@ -2,13 +2,9 @@ import React from "react";
 
 function Login() {
   return (
-    <div>
-      <a href="#" target="_blank" rel="noopener noreferrer">
-        Login
-      </a>
-      <a href="#" target="_blank" rel="noopener noreferrer">
-        Register
-      </a>
+    <div className="loginContainer">
+      <button className="loginBtn">login</button>
+      <button className="registerBtn">register</button>
     </div>
   );
 }

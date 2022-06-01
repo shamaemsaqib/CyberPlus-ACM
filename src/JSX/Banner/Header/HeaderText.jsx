@@ -1,11 +1,12 @@
 import React from "react";
+import Button from "../../Global Components/Button";
 
 function HeaderText() {
   return (
-    <div>
+    <div className="headerTxtContainer">
       <h1>cyber security</h1>
       <h3>is much more than a matter of information technology</h3>
-      <button>get started</button>
+      <Button />
     </div>
   );
 }

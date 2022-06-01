@@ -12,3 +12,27 @@
   text-transform: capitalize;
   gap: 1.5rem;
 }
+
+.loginContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.loginBtn,
+.registerBtn {
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.loginBtn {
+  color: white;
+  background-color: inherit;
+}
+
+.registerBtn {
+  border-radius: 1rem;
+  padding: 0.5rem 1.2rem;
+}

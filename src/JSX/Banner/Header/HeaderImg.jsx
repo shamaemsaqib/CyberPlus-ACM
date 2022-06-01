@@ -2,7 +2,11 @@ import React from "react";
 import img from "../../../Assets/Header-Img.png";
 
 function HeaderImg() {
-  return <img src={img} alt="" />;
+  return (
+    <div className="headerImgContainer">
+      <img className="headerImg" src={img} alt="" />
+    </div>
+  );
 }
 
 export default HeaderImg;
